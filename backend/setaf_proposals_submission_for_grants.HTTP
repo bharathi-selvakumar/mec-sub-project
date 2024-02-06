@@ -1,0 +1,22 @@
+GET http://localhost:1997/show
+
+
+###
+POST http://localhost:1997/insert
+Content-Type: application/json
+
+{
+        "academic_year":"2023",
+        "semester":"odd",
+        "name_of_the_faculty":"bharathi",
+        "date_of_submission":"2023-09-07",
+        "type":"gov",
+        "title_of_the_proposal_submitted":"about",
+        "duration":"7",
+        "amount_quoted":"55L",
+     	"grant_sanctioned":"y",
+        "attachment":"",
+        "proposal_proof_PDF":"",
+        "grant_sanctioned_proof_PDF":""	
+    
+}

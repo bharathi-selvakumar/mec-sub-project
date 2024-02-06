@@ -1,0 +1,16 @@
+GET http://localhost:1989/show
+
+
+###
+POST http://localhost:1989/insert
+Content-Type: application/json
+
+{
+    "name_of_the_faculty_participated":"bharathi",
+    "date":"2023-09-08",
+    "taste_number":4,
+    "Seminar_topic":"about uiux",
+    "resource_person_name":"bharathi",
+     "outcome_activity":"nothing"	
+   
+}

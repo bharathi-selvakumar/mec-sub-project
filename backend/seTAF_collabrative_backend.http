@@ -1,0 +1,26 @@
+GET http://localhost:1996/show
+
+
+
+###
+POST http://localhost:1996/insert
+Content-Type: application/json
+
+{  
+          "academic_year":"2023",
+    	   "semester":"odd",
+           "name_of_the_faculty_coordinator":"bharathi",	
+           "nature_of_the_activity":"nothing",	
+           "name_of_MoU_signed_industry_or_institution":"muthyammal ",
+           "title_of_the_activity":"jgjhg",
+           "duration_from":"khkhk",
+           "duration_to":"9:9:6",
+           "name_of_resource_person":"jkjkl",
+           "contact_details_of_resource_person":"jkkjlkjk",
+           "designation_of_resource_person":"ghgkjkh",
+           "organization_details_of_resource_person":"jgjj",
+           "No_of_beneficiaries":"kjjh",
+           "Attachments":"",
+           "Enclose_Proof_PDF":""	
+
+}

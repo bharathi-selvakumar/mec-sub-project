@@ -1,0 +1,20 @@
+GET http://localhost:2003/show
+
+
+###
+POST http://localhost:2003/insert
+Content-Type: application/json
+
+{
+    "SESTA_ID":3,
+    "Academic_year":"2023",
+    "Semesters":"odd",
+    "Department":"CSE",
+    "Date":"2023-04-06",
+    "Title_of_the_TechTalk":"INTERNET OF THING",
+    "Name_of_the_Student":"BARANI KESHAVA",
+    "Year":"II",
+    "Semester":"3",
+    "Section":"A",
+    "No_of__Beneficiaries":"2"
+}

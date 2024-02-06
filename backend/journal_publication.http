@@ -1,0 +1,26 @@
+GET http://localhost:1994/show
+
+
+
+###
+POST http://localhost:1994/insert
+Content-Type: application/json
+
+{  
+    "academic_year":"2023",
+        "semester":"odd",
+        "department":"cse",	
+        "name_of_the_authors":"ej",	
+        "title_of_the_paper":"wake up to reality",	
+        "name_of_journal":"bharathi",
+        "year_of_publication":"2077",
+        "month_of_publication":"7",
+        "ISSN_number":"12322",
+        "volume_no":3,
+        "issue_no":8,
+        "page_no":9,
+        "journal_listed_in":"madara uchiha",
+        "link_to_website_of_the_journal":"www.ej.com",
+        "attachements":"",
+        "journal_first_pae_PDF":""	
+}

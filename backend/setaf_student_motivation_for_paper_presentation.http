@@ -1,0 +1,20 @@
+GET http://localhost:1995/show
+
+
+
+###
+POST http://localhost:1995/insert
+Content-Type: application/json
+
+{  
+            "academic_year":"23",
+        	"semester":"odd",
+            "name_of_the_faculty":"bharati",
+            "name_of_the_student":"eviljack",
+            "paper_presentation_and_project_submission_and_other_contest":"nothing",
+            "date":"3:4:5",
+            "no_of_beneficiaries":"rerw",
+            "attachement":"",
+            "certificate_pdf":""
+
+}

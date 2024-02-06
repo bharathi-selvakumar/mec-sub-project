@@ -1,0 +1,22 @@
+GET http://localhost:1993/show
+
+
+
+###
+POST http://localhost:1993/insert
+Content-Type: application/json
+
+{  
+    "academic_year":"2023",
+        "semester":"odd",
+        "department":"cse",	
+         "name_of_the_authors":"ej",
+        "title_of_the_conference_paper":"wake up to reality",
+        "name_of_the_conference":"ej",
+        "place_of_the_conference":"leaf village",
+        "conference_type":"nothing",
+        "date_of_conference":"2077-07-07",
+        "ISBN_of_the_conference_proceeding":"nothing",
+        "attachements":"",
+        "conference_certificate_and_proceeding_PDF":""	
+}

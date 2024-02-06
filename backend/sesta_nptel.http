@@ -1,0 +1,22 @@
+GET http://localhost:1999/show
+
+
+
+###
+POST http://localhost:1999/newrecord
+Content-Type: application/json
+
+{  
+    "SESTA_ID":null,
+    "Academic_year":"2024",
+    "Semesters":"odd",
+    "Name_of_the_Student":"Bharathi",
+    "Academic_year_of_the_Student":"2024",
+    "Semester":"odd",
+    "Section":"A",
+    "Course_Name":"CSE",
+    "Year":"2024",
+    "Session":"FN",
+    "Score_obtained":74,
+    "Certificate_Type":"gold"
+}

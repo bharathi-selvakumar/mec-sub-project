@@ -1,0 +1,18 @@
+GET http://localhost:1990/show
+
+
+###
+POST http://localhost:1990/insert
+Content-Type: application/json
+
+{
+        "name_of_the_faculty":"bharathi",
+        "date":"2023-03-04",
+        "topic_of_guest_talk":"abuot uiux",
+        "name_of_the_institution":"muthyammal",
+        "place_of_the_institution":"muthyammal",
+        "no_of_beneficiaries":8,
+        "attachements":"",
+        "letter_of_appreciation_or_certificate_PDF":""
+   
+}

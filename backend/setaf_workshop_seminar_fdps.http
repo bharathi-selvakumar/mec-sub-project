@@ -1,0 +1,22 @@
+GET http://localhost:1992/show
+
+
+
+###
+POST http://localhost:1992/insert
+Content-Type: application/json
+
+{  
+       "name_of_the_faculty":"bharathi",
+        "designation":"nothing",
+        "nature_of_the_program":"nothing",
+        "title_of_the_program":"wake up to reality",
+        "duration_from":"2023-09-09",
+        "duration_to":"2024-01-01",
+        "participation":"student",
+        "name_of_the_organization_and_place":"muthyammal",
+        "location_of_organization":"rasipuram",
+        "amount_provided_by_the_HEI":"12L",
+        "attachements":"",
+        "Certificates_PDF"	:""
+}

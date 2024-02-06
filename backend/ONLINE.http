@@ -1,0 +1,25 @@
+GET http://localhost:2000/show
+
+
+
+###
+POST http://localhost:2000/insert
+Content-Type: application/json
+
+{  
+   "SESTA_ID":"0",
+      "Academic_year":"2023",
+      "Semesters":"4",
+      "Department":"cse",
+      "Name_of_the_Student":"bharathi",
+      "Year":"4",
+      "Semester":"7",
+      "Section":"a",
+      "Online_Certification":"techechnical",
+      "Name_of_the_Course":"iot",
+      "Date":"2005-09-05",
+      "Duration":"nothing",
+      "Details_of_the_Organization":"no"	,
+      "Awards_Recognitions":"gold",
+      "Outcome_of_the_Activity":"nothing"	
+}

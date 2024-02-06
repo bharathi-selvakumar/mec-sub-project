@@ -1,0 +1,28 @@
+GET http://localhost:2002/show
+
+
+
+###
+POST http://localhost:2002/insert
+Content-Type: application/json
+
+{  
+       "SESTA_ID":0,
+       "Academic_year":"24",
+        "Semesters":"odd",
+        "Department":"eee",	
+        "Name_of_the_student":"bharathi",	
+        "Year":"23",
+        "Semestar":"5",
+        "Section":"a",	
+        "Nature_of_Participantion":"nothing",	
+        "Title":"ej",	
+        "Date":"2006-09-08",	
+        "Duration":"nothing",
+        "Name_of_the_Organisation":"nothing",
+        "Name_of_the_contect_person":"nothing",
+        "Phone_number_of_contact_person":"87868678646",
+        "Email_ID_of_the_contact_person":987654321,
+        "Website_of_Organisation":"nothing",
+        "Outcome_of_the_activity":"nothig"	
+}

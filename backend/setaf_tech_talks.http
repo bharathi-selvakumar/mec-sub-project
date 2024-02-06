@@ -1,0 +1,26 @@
+GET http://localhost:1991/show
+
+
+
+###
+POST http://localhost:1991/insert
+Content-Type: application/json
+
+{  
+        "name_of_the_faculty":"bharathi",
+        "MuDiL_number":"343241",
+        "lecture_delivered_to_branch":"bharathi",
+        "semester":"odd",
+        "section":"a",
+        "data_of_lecture_delivered":"2023-09-09",
+        "period":"2",
+        "topic_of_discussion":"wake up to reality",
+        "no_of_beneficiaries":"98",
+        "detail_of_discussion_made":"nothing",
+        "outcome_of_he_activity":"nothing",
+        "PO_and_PSO":"po1",
+        "attachments":"",
+        "attendance_sheet_PDF":"",
+        "handout_of_lecture_PDF":""	
+       
+}

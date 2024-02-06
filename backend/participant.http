@@ -1,0 +1,25 @@
+GET http://localhost:2001/show
+
+
+
+###
+POST http://localhost:2001/insert
+Content-Type: application/json
+
+{  
+        "SESTA_ID":0,
+        "Academic_year":"2023",
+        "Semesters":"3",
+        "Department":"cse"	,
+        "Name_of_the_Student":"barathi",
+        "Year":"3",
+        "Semester":"4",
+        "Section":"a",
+        "Nature_of_participation":"bharathi",
+        "Name_of_the_program":"blockchine",
+        "Date":"2005-05-03",	
+        "Duration":"nothing",
+        "Name_of_the_Organization":"nothing",
+        "Awards_and_Recognitions":" nothing"	
+    
+}

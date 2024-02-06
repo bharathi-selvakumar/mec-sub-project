@@ -1,0 +1,19 @@
+GET http://localhost:1998/show
+
+
+###
+POST http://localhost:1998/insert
+Content-Type: application/json
+
+{
+    "academic_year":"2023",
+    "semester":"odd",
+    "name_of_the_faculty":"bharathi",
+    "nature_of_guidance":"nothing",
+    "duration_form":"nothing",
+    "duration_to":"nothing",
+    "number_of_students_undertaking_the_field_project":19,
+    "student_name":"bharathi",
+    "attachments":"",
+    "certificate_pdf":""	
+}
