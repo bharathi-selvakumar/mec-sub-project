@@ -148,7 +148,7 @@ console.log(conference)
                 <button  className="submit"type='submit' name='submit' onClick={handleclick}>SUBMIT </button>
                 <button  className='clear' type='reset' name='clear'>CLEAR</button>
           </div>
-         
+        
         </form>
       </div>
     </div>
